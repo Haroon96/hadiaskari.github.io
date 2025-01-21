@@ -1,0 +1,70 @@
+<div class="news-container overflow">
+  <table class="news">
+    <tr>
+      <td>2024</td>
+      <td>&nbsp;Sep</td>
+      <td class="pl-5">Presented at <em>Trust & Safety Research Conference</em> at Stanford University.</td>
+    </tr>
+    <tr>
+      <td>2024</td>
+      <td>&nbsp;Aug</td>
+      <td class="pl-5"><em>Incentivizing news consumption on social media platforms using large language models and realistic bot accounts</em> was accepted at PNAS Nexus.</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>&nbsp;Sep</td>
+      <td class="pl-5">Attended the <em>Trust & Safety Research Conference</em> at Stanford University.</td>
+    </tr>
+    <tr>
+      <td>2023</td>
+      <td>&nbsp;May</td>
+      <td class="pl-5"><em>A Utility-Preserving Obfuscation Approach for YouTube Recommendations</em> was accepted at PETS'23.</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>&nbsp;Dec</td>
+      <td class="pl-5">Attended the second annual <em>ProperData Symposium</em> at UC Irvine.</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>&nbsp;Nov</td>
+      <td class="pl-5">Attended the <em>UC Noyce Initiative Symposium '22</em> at UC Santa Barbara.</td>
+    </tr>
+    <tr>
+      <td>2022</td>
+      <td>&nbsp;Oct</td>
+      <td class="pl-5">Presented at the <em>UC Davis Noyce Workshop</em>.</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>&nbsp;Nov</td>
+      <td class="pl-5">Attended the <em>ProperData Symposium</em> at UC Irvine.</td>
+    </tr>
+    <tr>
+      <td>2021</td>
+      <td>&nbsp;Sep</td>
+      <td class="pl-5">Joined the PhD program at UC Davis.</td>
+    </tr>
+  </table>
+</div>
+<div class="news-container-see-more has-text-centered">
+  <a onclick="javascript:see_more_news(event)">[see more]</a>
+</div>
+<script>
+  const news = document.querySelector('.news-container');
+  let height = 100;
+
+  function updateHeight() {
+    news.style.maxHeight = `${height}px`;
+  }
+  window.onload = function() {
+    updateHeight();
+  }
+  function see_more_news(e) {
+    height += 150;
+    updateHeight();
+    if (height > news.scrollHeight) {
+      e.target.remove();
+    }
+  }
+</script>
