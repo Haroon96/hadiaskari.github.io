@@ -1,0 +1,124 @@
+{
+    "publications": [
+        {
+            "title": "Unraveling Indirect In-Context Learning Using Influence Functions",
+            "authors": ["H Askari", "S Gupta", "T Tong", "F Wang", "A Chhabra", "M Chen"],
+            "venue": "arXiv preprint",
+            "year": 2025,
+            "urls": [
+                {
+                    "name": "paper",
+                    "url": "https://arxiv.org/pdf/2501.01473"
+                }
+            ]
+        },
+        {
+            "title": "Assessing LLMs for Zero-shot Abstractive Summarization Through the Lens of Relevance Paraphrasing",
+            "authors": ["H Askari", "A Chhabra", "M Chen", "P Mohapatra"],
+            "venue": "arXiv preprint",
+            "year": 2024,
+            "urls": [
+                {
+                    "name": "paper",
+                    "url": "https://arxiv.org/pdf/2406.03993"
+                }
+            ]
+        },
+        {
+            "title": "Incentivizing News Consumption on Social Media Platforms Using Large Language Models and Realistic Bot Accounts",
+            "authors": ["H Askari", "A Chhabra", "BC von Hohenberg", "M Heseltine", "M Wojcieszak"],
+            "venue": "PNAS Nexus",
+            "year": 2024,
+            "urls": [
+                {
+                    "name": "paper",
+                    "url": "https://academic.oup.com/pnasnexus/article/3/9/pgae368/7739964"
+                }
+            ]
+        },
+        {
+            "title": "Revisiting Zero-Shot Abstractive Summarization in the Era of Large Language Models from the Perspective of Position Bias",
+            "authors": ["A Chhabra", "H Askari", "P Mohapatra"],
+            "venue": "NAACL",
+            "year": 2024,
+            "urls": [
+                {
+                    "name": "paper",
+                    "url": "https://arxiv.org/pdf/2401.01989"
+                }
+            ]
+        },
+        {
+            "title": "A Utility-Preserving Obfuscation Approach for YouTube Recommendations",
+            "authors": ["J Zhang", "H Askari", "K Psounis", "Z Shafiq"],
+            "venue": "23rd Privacy Enhancing Technologies Symposium",
+            "year": 2023,
+            "urls": [
+                {
+                    "name": "paper",
+                    "url": "https://arxiv.org/pdf/2210.08136"
+                }
+            ]
+        }
+    ],
+    "news": [
+        {
+            "content": "Presented at <em>Trust & Safety Research Conference</em> at Stanford University.",
+            "month": "Sep",
+            "year": 2024
+        },
+        {
+            "content": "<em>Incentivizing news consumption on social media platforms using large language models and realistic bot accounts</em> was accepted at PNAS Nexus.",
+            "month": "Aug",
+            "year": 2024
+        },
+        {
+            "content": "Attended the <em>Trust & Safety Research Conference</em> at Stanford University.",
+            "month": "Sep",
+            "year": 2023
+        },
+        {
+            "content": "<em>A Utility-Preserving Obfuscation Approach for YouTube Recommendations</em> was accepted at PETS'23.",
+            "month": "May",
+            "year": 2023
+        },
+        {
+            "content": "Attended the second annual <em>ProperData Symposium</em> at UC Irvine.",
+            "month": "Dec",
+            "year": 2022
+        },
+        {
+            "content": "Attended the <em>UC Noyce Initiative Symposium '22</em> at UC Santa Barbara.",
+            "month": "Nov",
+            "year": 2022
+        },
+        {
+            "content": "Presented at the <em>UC Davis Noyce Workshop</em>.",
+            "month": "Oct",
+            "year": 2022
+        },
+        {
+            "content": "Attended the <em>ProperData Symposium</em> at UC Irvine.",
+            "month": "Nov",
+            "year": 2021
+        },
+        {
+            "content": "Joined the PhD program at UC Davis.",
+            "month": "Sep",
+            "year": 2021
+        }
+    ],
+    "talks": [
+        {
+            "title": "Talk Title",
+            "venue": "Talk Venue",
+            "year": 2024,
+            "urls": [
+                {
+                    "name": "slides",
+                    "url": "#"
+                }
+            ]
+        }
+    ]
+}
